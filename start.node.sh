@@ -58,4 +58,6 @@ fi
 
 
 ### COMMAND
+source $(brew --prefix nvm)/nvm.sh
+nvm use 0.10
 DATABASE_URL=oracle://jade:jade@$server:1521/$sid PORT=$port node $debug app.js
