@@ -30,15 +30,15 @@ fi
 
 ### PORT
 re='^[0-9]+$'
-if [[ $1 =~ $re ]] && [ "$1" -gt 2999 ] && [ "$1" -lt 65535 ]
+if [[ $1 =~ $re ]] && [ "$1" -gt 2999 ] && [ "$1" -lt 65536 ]
 then
     port=$1
     echo Using port [$port]
-elif [[ $2 =~ $re ]] && [ "$2" -gt 2999 ] && [ "$2" -lt 65535 ]
+elif [[ $2 =~ $re ]] && [ "$2" -gt 2999 ] && [ "$2" -lt 65536 ]
 then
     port=$2
     echo Using port [$port]
-elif [[ $3 =~ $re ]] && [ "$3" -gt 2999 ] && [ "$3" -lt 65535 ]
+elif [[ $3 =~ $re ]] && [ "$3" -gt 2999 ] && [ "$3" -lt 65536 ]
 then
     port=$3
     echo Using port [$port]
