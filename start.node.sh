@@ -1,5 +1,5 @@
 #!/bin/bash
-#DATABASE_URL=oracle://jade:jade@10.10.10.200:1521/xe PORT=3100 node app.js
+#Start Node server (in the current directory) using simple db, port and debug options
 
 server=10.10.10.200
 port=3000
